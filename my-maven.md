@@ -1,6 +1,8 @@
 ---
 layout: default
 ---
+### Why?
+I use my own Maven Repository for new projects, personal projects, or projects that I don't want to be on the central. 
 
 ### How to access my Maven Repository.
 
@@ -12,12 +14,10 @@ layout: default
 </repository>
 
 ```
+
 #### Gradle
-```java
+```
 repositories {
   maven { url 'https://repo.kingtux.me/repository/maven-public/' }
 }
 ```
-
-### Why?
-I use my own Maven Repository for new projects, personal projects, or projects that I don't want to be on the central. 
