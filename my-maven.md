@@ -10,16 +10,16 @@ I use my own Maven Repository for new projects, personal projects, or projects t
 
 #### Maven
 ```xml
-<repository>
-   <id>kingtux-repo</id>
-   <url>https://repo.kingtux.me/repository/maven-public/</url>
-</repository>
+        <repository>
+            <id>kingtux-repo</id>
+            <url>https://repo.kingtux.me/storages/storage0/kingtux-repo</url>
+        </repository>
 
 ```
 
 #### Gradle
 ```
 repositories {
-  maven { url 'https://repo.kingtux.me/repository/maven-public/' }
+  maven { url 'https://repo.kingtux.me/storages/storage0/kingtux-repo' }
 }
 ```
