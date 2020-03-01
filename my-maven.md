@@ -12,14 +12,13 @@ I use my own Maven Repository for new projects, personal projects, or projects t
 ```xml
         <repository>
             <id>kingtux-repo</id>
-            <url>https://repo.kingtux.me/storages/storage0/kingtux-repo</url>
+            <url>https://repo.kingtux.me/storages/maven/kingtux-repo</url>
         </repository>
-
 ```
 
 #### Gradle
 ```
 repositories {
-  maven { url 'https://repo.kingtux.me/storages/storage0/kingtux-repo' }
+  maven { url 'https://repo.kingtux.me/storages/maven/kingtux-repo' }
 }
 ```
